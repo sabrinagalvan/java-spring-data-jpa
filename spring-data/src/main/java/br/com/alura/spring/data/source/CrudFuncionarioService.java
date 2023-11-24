@@ -8,12 +8,12 @@ import br.com.alura.spring.data.orm.Cargo;
 import br.com.alura.spring.data.repository.CargoRepository;
 
 @Service
-public class CrudCargoService {
+public class CrudFuncionarioService {
 
 	private Boolean system = true;
 	private final CargoRepository cargoRepository;
 
-	public CrudCargoService(CargoRepository cargoRepository) {
+	public CrudFuncionarioService(CargoRepository cargoRepository) {
 		this.cargoRepository = cargoRepository;
 	}
 
